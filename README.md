@@ -1,4 +1,4 @@
-## :package:NodeJs package starter
+## :package: NodeJs package starter
 
 Boilerplate to create NodeJs packages more easy.
 
