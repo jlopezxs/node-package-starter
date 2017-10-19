@@ -1,8 +1,8 @@
-# NodeJs package starter
+## :package:NodeJs package starter
 
 Boilerplate to create NodeJs packages more easy.
 
-## Usage
+### Usage
 
 ```bash
 git clone https://github.com/jlopezxs/node-package-starter.git PACKAGENAME
@@ -11,15 +11,15 @@ cd PACKAGENAME
 yarn install
 ```
 
-# READMETEMPLATE
+## --PackageTitle--
 
-## Installation
+### Installation
 
 ```bash
 npm install --packagename--
 ```
 
-## Usage
+### Usage
 
 ```js
 // Example hre
