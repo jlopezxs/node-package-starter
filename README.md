@@ -1,5 +1,7 @@
 ## :package: NodeJs package starter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jlopezxs/node-package-starter.svg)](https://greenkeeper.io/)
+
 Boilerplate to create NodeJs packages more easy.
 
 ### Usage
