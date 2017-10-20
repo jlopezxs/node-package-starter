@@ -15,8 +15,8 @@ git clone https://github.com/jlopezxs/node-package-starter.git PACKAGENAME
 cd PACKAGENAME
 # Update the package.json with your data and
 yarn install
-yarn run init //semantic-realease setup
-yarn run cm //commit with comitizen
+yarn run init #semantic-realease setup
+yarn run cm #commit with comitizen
 ```
 
 ## --PackageTitle--
