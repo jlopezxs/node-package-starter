@@ -1,5 +1,5 @@
 ## :package: NodeJs package starter
-Boilerplate to create NodeJs packages more easy.
+> Boilerplate to create NodeJs packages more easy.
 
 [![Build Status](https://img.shields.io/travis/jlopezxs/node-package-starter.svg)](https://travis-ci.org/jlopezxs/node-package-starter)
 [![Dev dependencies](https://david-dm.org/jlopezxs/node-package-starter/dev-status.svg)](https://david-dm.org/jlopezxs/node-package-starter?type=dev)
