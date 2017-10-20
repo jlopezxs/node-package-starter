@@ -1,6 +1,6 @@
 {
   "name": "--packagename--",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "author": "--authorname-- <--authoremail-->",
   "description": "",
   "keywords": [],
@@ -17,16 +17,10 @@
     "test:watch": "jest --watch",
     "test:prod": "npm run lint && npm run test  -- --coverage --no-cache",
     "build": "rm -rf dist && babel src -d dist --source-maps",
-    "commit": "git-cz",
-    "report-coverage": "cat ./coverage/lcov.info | coveralls",
+    "cm": "git-cz",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "precommit": "lint-staged"
-  },
-  "lint-staged": {
-    "{src}/**/*.js": [
-      "prettier --write --no-semi --single-quote",
-      "git add"
-    ]
+    "precommit": "lint-staged",
+    "init": "semantic-release-cli setup"
   },
   "config": {
     "commitizen": {
@@ -34,8 +28,14 @@
     },
     "validate-commit-msg": {
       "types": "conventional-commit-types",
-      "helpMessage": "Use \"npm run commit\" (https://github.com/commitizen/cz-cli)"
+      "helpMessage": "Use \"npm run commit\" instead, we use conventional-changelog format :) (https://github.com/commitizen/cz-cli)"
     }
+  },
+  "lint-staged": {
+    "{src}/**/*.js": [
+      "prettier --write --no-semi --single-quote",
+      "git add"
+    ]
   },
   "dependencies": {},
   "devDependencies": {
@@ -54,14 +54,16 @@
     "husky": "^0.14.3",
     "jest": "^21.2.1",
     "lint-staged": "^4.3.0",
-    "prettier": "^1.7.4"
+    "prettier": "^1.7.4",
+    "semantic-release": "^8.2.0",
+    "semantic-release-cli": "^3.2.2"
   },
   "repository": {
     "type": "git",
-    "url": "--repositoryurl--"
+    "url": "https://github.com/jlopezxs/node-package-starter"
   },
   "bugs": {
-    "url": "--repositoryissuesurl--"
+    "url": "https://github.com/jlopezxs/node-package-starter/issues"
   },
   "babel": {
     "presets": [
