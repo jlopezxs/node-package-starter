@@ -55,8 +55,8 @@
     "jest": "^22.0.0",
     "lint-staged": "^7.0.0",
     "prettier": "^1.7.4",
-    "semantic-release": "^15.0.0",
-    "semantic-release-cli": "^3.2.2"
+    "semantic-release-cli": "^4.0.0",
+    "semantic-release": "^15.0.0"
   },
   "repository": {
     "type": "git",
